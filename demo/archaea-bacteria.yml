@@ -1,15 +1,18 @@
-name: archaea-bacteria
+name: dengue-ncbi-whole
+
 experiments:
   subtype:
     expand_options:
       k: 4..7
     dataset:
-      archive: archaea-bacteria
-      archive_folder: archaea-bacteria-whole
-      metadata: archaea-bacteria-whole
+      archive: dengue
+      archive_folder: ncbi-whole
+      metadata: dengue-ncbi-whole
     groups:
-      'Archaea': {}
-      'Bacteria': {}
+      '1': {}
+      '2': {}
+      '3': {}
+      '4': {}
 
 steps:
   - type: select
