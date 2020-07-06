@@ -44,7 +44,7 @@ steps:
     type: classify
     features_file: cgrs.mm-repr
     output_file: classification-kmers.json
-    validation_count: 10
+    validation_count: 2 # todo increase the number later
     classifiers:
       - 10-nearest-neighbors
       - nearest-centroid-mean

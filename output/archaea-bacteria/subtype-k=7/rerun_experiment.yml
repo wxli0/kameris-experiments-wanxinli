@@ -1,5 +1,5 @@
 name: archaea-bacteria
-random_seed: 2382831108
+random_seed: 508101679
 experiments:
   subtype-k=7:
     k: 7
@@ -26,7 +26,7 @@ steps:
 - type: classify
   features_file: cgrs.mm-repr
   output_file: classification-kmers.json
-  validation_count: 10
+  validation_count: 2
   classifiers:
   - 10-nearest-neighbors
   - nearest-centroid-mean
