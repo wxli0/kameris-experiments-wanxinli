@@ -26,6 +26,7 @@ metadata:
   plastids-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/plastids-refseq.json
   viruses-all: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/viruses-all.json
   viruses-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/viruses-refseq.json
+  archaea-bacteria: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria.json
 
 archives:
   1kplants: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvU0RJSDMtbjZVZDQ
