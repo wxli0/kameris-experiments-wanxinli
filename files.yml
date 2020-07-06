@@ -56,4 +56,4 @@ models:
     python2: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py2.mm-model
     python3: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py3.mm-model
   archaea-bacteria:
-    python3: 
+    python3: https://github.com/wxli0/kameris-experiments-wanxinli/blob/master/output/archaea-bacteria/subtype-k=5/classification-kmers_sgd.mm-model?raw=true
