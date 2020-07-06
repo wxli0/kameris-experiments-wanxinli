@@ -5,7 +5,7 @@ experiments:
     expand_options:
       k: 5..6
     dataset:
-      archive: archaea-bacteria
+      archive: archaea-bacteria-small
       archive_folder: archaea-bacteria-small
       metadata: archaea-bacteria-small
     groups:
