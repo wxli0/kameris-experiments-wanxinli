@@ -1,0 +1,103 @@
+INFO     using random seed value 2193883997
+INFO     *** started step 'select' (1/3)
+INFO     started running pick_group
+INFO     retrieving 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/files.yml'
+INFO     started downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria.json'
+INFO     0%|          | 0.00/119 [00:00<?, ?b/s]
+INFO     296b [00:00, 98.2kb/s]
+INFO     finished downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria.json' in 0.15 seconds
+INFO     finished running pick_group in 0.31 seconds
+INFO     started processing metadata entries
+INFO     0%|          | 0/4 [00:00<?, ?it/s]
+INFO     started downloading 'https://drive.google.com/uc?export=download&id=1gCNNgqxbTVnttKyESwQjR_ghKGijVgO-'
+INFO     preparing download (this may take a while)
+INFO     0%|          | 0.00/745k [00:00<?, ?b/s]
+INFO     [A
+INFO     100%|##########| 745k/745k [00:00<00:00, 5.29Mb/s]
+INFO     [A
+INFO     100%|##########| 745k/745k [00:00<00:00, 5.25Mb/s]
+INFO     finished downloading 'https://drive.google.com/uc?export=download&id=1gCNNgqxbTVnttKyESwQjR_ghKGijVgO-' in 0.99 seconds
+INFO     25%|##5       | 1/4 [00:01<00:03,  1.09s/it]
+INFO     100%|##########| 4/4 [00:01<00:00,  3.52it/s]
+INFO     finished processing metadata entries in 1.14 seconds
+INFO     started writing metadata file
+INFO     finished writing metadata file in 0.01 seconds
+INFO     *** finished step 'select' (1/3) in 1.48 seconds
+INFO     *** started step 'kmers' (2/3)
+INFO     running command ""/h/wanxinli/kameris/kameris/scripts/generation_cgr_linux_avx2" cgr "output/archaea-bacteria/subtype-k=4/fasta" "output/archaea-bacteria/subtype-k=4/cgrs.mm-repr" 4 16"
+INFO     4 files, using 40 threads
+INFO     25% [========>                          ] 1/4 ETA:0s
+INFO     *** finished step 'kmers' (2/3) in 0.07 seconds
+INFO     *** started step 'classify' (3/3)
+INFO     started classifier '10-nearest-neighbors' (1/15)
+WARNING  *** classifier run failed with error 'Expected n_neighbors <= n_samples,  but n_samples = 3, n_neighbors = 10', skipping
+INFO     finished classifier '10-nearest-neighbors' (1/15) in 0.01 seconds
+INFO     started classifier 'nearest-centroid-mean' (2/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'nearest-centroid-mean' (2/15) in 0.03 seconds
+INFO     started classifier 'nearest-centroid-median' (3/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'nearest-centroid-median' (3/15) in 0.03 seconds
+INFO     started classifier 'logistic-regression' (4/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'logistic-regression' (4/15) in 0.02 seconds
+INFO     started classifier 'sgd' (5/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'sgd' (5/15) in 0.03 seconds
+INFO     started classifier 'linear-svm' (6/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'linear-svm' (6/15) in 0.02 seconds
+INFO     started classifier 'quadratic-svm' (7/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'quadratic-svm' (7/15) in 0.02 seconds
+INFO     started classifier 'cubic-svm' (8/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'cubic-svm' (8/15) in 0.02 seconds
+INFO     started classifier 'decision-tree' (9/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'decision-tree' (9/15) in 0.02 seconds
+INFO     started classifier 'random-forest' (10/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'random-forest' (10/15) in 0.21 seconds
+INFO     started classifier 'adaboost' (11/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'adaboost' (11/15) in 0.04 seconds
+INFO     started classifier 'gaussian-naive-bayes' (12/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'gaussian-naive-bayes' (12/15) in 0.02 seconds
+INFO     started classifier 'lda' (13/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'lda' (13/15) in 0.03 seconds
+INFO     started classifier 'qda' (14/15)
+WARNING  *** classifier run failed with error 'y has only 1 sample in class Archaea, covariance is ill defined.', skipping
+INFO     finished classifier 'qda' (14/15) in 0.00 seconds
+INFO     started classifier 'multilayer-perceptron' (15/15)
+WARNING  *** classifier run failed with error 'Expected 2D array, got 1D array instead:
+array=[].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.', skipping
+INFO     finished classifier 'multilayer-perceptron' (15/15) in 0.58 seconds
+INFO     *** finished step 'classify' (3/3) in 1.13 seconds

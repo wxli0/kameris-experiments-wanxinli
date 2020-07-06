@@ -55,3 +55,5 @@ models:
   hiv1-mlp:
     python2: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py2.mm-model
     python3: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py3.mm-model
+  archaea-bacteria:
+    python3: 
