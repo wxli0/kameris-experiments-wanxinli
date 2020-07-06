@@ -1,0 +1,55 @@
+metadata:
+  1kplants: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/1kplants.json
+  cpdna-all: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/cpdna-all.json
+  cpdna-taxa: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/cpdna-taxa.json
+  dengue-ncbi-whole: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/dengue-ncbi-whole.json
+  flu-ncbi: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/flu-ncbi.json
+  genomes-animals: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/genomes-animals.json
+  genomes-archaea: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/genomes-archaea.json
+  genomes-bacteria: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/genomes-bacteria.json
+  genomes-fungi: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/genomes-fungi.json
+  genomes-plants: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/genomes-plants.json
+  genomes-protists: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/genomes-protists.json
+  hbv-ibcp-whole: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/hbv-ibcp-whole.json
+  hcv-lanl-whole: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/hcv-lanl-whole.json
+  hiv1-lanl-pol: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/hiv1-lanl-pol.json
+  hiv1-lanl-whole: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/hiv1-lanl-whole.json
+  hiv1-mixed-polfragments: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/hiv1-mixed-polfragments.json
+  hiv1-synthetic-polfragments: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/hiv1-synthetic-polfragments.json
+  mmetsp: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/mmetsp.json
+  mtdna-all: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/mtdna-all.json
+  mtdna-human-haplogroups: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/mtdna-human-haplogroups.json
+  mtdna-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/mtdna-refseq.json
+  mtdna-taxa: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/mtdna-taxa.json
+  plasmids-all: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/plasmids-all.json
+  plasmids-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/plasmids-refseq.json
+  plastids-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/plastids-refseq.json
+  viruses-all: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/viruses-all.json
+  viruses-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/viruses-refseq.json
+
+archives:
+  1kplants: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvU0RJSDMtbjZVZDQ
+  dengue: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvTHZPTEdZOC1JNUE
+  flu: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvNV9yTmJYU00wUmM
+  genomes-animals: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvODRWRnBCQlJiNW8
+  genomes-archaea: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvSk94cFhQMk92c28
+  genomes-bacteria: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvMDluZm5VdnEtSUE
+  genomes-fungi: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvVGptcTJJamw5amc
+  genomes-plants: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvQUx6V2xfUEplSTg
+  genomes-protists: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvTkZJRnZESVV0Tmc
+  hbv: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvMFNiY1VyZ1MtZUE
+  hcv: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvZ2QzZTh1TFJKZE0
+  hiv1: https://drive.google.com/uc?export=download&id=0B7OX388vZjTva1NNYXh5WEM2Z28
+  mmetsp: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvX2tjNF9lbkdiTWs
+  mtdna: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvaExHUmhxV253WUU
+  plasmids: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvdlFkVGJUNkRZdjQ
+  plastids: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvM0lKT2JDMXh5RU0
+  viruses: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvdE9NcDEzaTNWYk0
+
+models:
+  hiv1-linearsvm:
+    python2: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-linearsvm-py2.mm-model
+    python3: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-linearsvm-py3.mm-model
+  hiv1-mlp:
+    python2: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py2.mm-model
+    python3: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py3.mm-model
