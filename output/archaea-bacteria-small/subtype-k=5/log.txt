@@ -1,55 +1,70 @@
-INFO     using random seed value 1914761867
+INFO     using random seed value 2563587527
 INFO     *** started step 'select' (1/3)
 INFO     started running pick_group
 INFO     retrieving 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/files.yml'
 INFO     started downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-small.json'
 INFO     0%|          | 0.00/706 [00:00<?, ?b/s]
-INFO     4.26kb [00:00, 1.24Mb/s]
-INFO     finished downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-small.json' in 0.15 seconds
-INFO     finished running pick_group in 0.17 seconds
+INFO     4.26kb [00:00, 1.61Mb/s]
+INFO     finished downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-small.json' in 0.03 seconds
+INFO     finished running pick_group in 0.06 seconds
 INFO     started processing metadata entries
 INFO     0%|          | 0/87 [00:00<?, ?it/s]
-INFO     started downloading 'https://drive.google.com/uc?export=download&id=1WRDBYGW3sBR08Wxe47vDiQfGMX07fxFy'
+INFO     started downloading 'https://drive.google.com/uc?export=download&id=1D_kdVcOjGqBXPXeTrOK0RcVVAY1FoCkL'
 INFO     preparing download (this may take a while)
-INFO     0%|          | 0.00/76.0M [00:00<?, ?b/s]
+INFO     0%|          | 0.00/21.7M [00:00<?, ?b/s]
 INFO     [A
-INFO     1%|1         | 1.05M/76.0M [00:00<00:10, 6.87Mb/s]
+INFO     5%|4         | 1.05M/21.7M [00:00<00:03, 6.63Mb/s]
 INFO     [A
-INFO     14%|#3        | 10.5M/76.0M [00:00<00:06, 9.52Mb/s]
+INFO     51%|#####1    | 11.1M/21.7M [00:00<00:01, 9.03Mb/s]
 INFO     [A
-INFO     24%|##3       | 17.9M/76.0M [00:00<00:04, 12.7Mb/s]
+INFO     76%|#######6  | 16.6M/21.7M [00:00<00:00, 12.0Mb/s]
 INFO     [A
-INFO     29%|##9       | 22.2M/76.0M [00:00<00:03, 15.8Mb/s]
+INFO     92%|#########1| 19.9M/21.7M [00:00<00:00, 14.4Mb/s]
 INFO     [A
-INFO     39%|###8      | 29.5M/76.0M [00:00<00:02, 20.5Mb/s]
-INFO     [A
-INFO     51%|#####     | 38.4M/76.0M [00:00<00:01, 26.4Mb/s]
-INFO     [A
-INFO     59%|#####9    | 45.1M/76.0M [00:00<00:00, 31.6Mb/s]
-INFO     [A
-INFO     72%|#######1  | 54.5M/76.0M [00:00<00:00, 39.5Mb/s]
-INFO     [A
-INFO     81%|########1 | 61.9M/76.0M [00:01<00:00, 31.1Mb/s]
-INFO     [A
-INFO     97%|#########6| 73.4M/76.0M [00:01<00:00, 39.6Mb/s]
-INFO     [A
-INFO     100%|##########| 76.0M/76.0M [00:01<00:00, 53.9Mb/s]
-INFO     finished downloading 'https://drive.google.com/uc?export=download&id=1WRDBYGW3sBR08Wxe47vDiQfGMX07fxFy' in 1.85 seconds
-INFO     0%|          | 0/87 [00:01<?, ?it/s]
-ERROR    an unexpected error occurred: BadZipFile: File is not a zip file
-ERROR    ***if you believe this is a bug, please report it at https://github.com/stephensolis/kameris/issues and include ALL the following text:***
-Traceback (most recent call last):
-  File "/h/wanxinli/kameris/kameris/__main__.py", line 45, in main
-    run_module.run(args)
-  File "/h/wanxinli/kameris/kameris/subcommands/run_job.py", line 284, in run
-    run_experiment_steps(steps, exp_options)
-  File "/h/wanxinli/kameris/kameris/subcommands/run_job.py", line 185, in run_experiment_steps
-    step_runners[step_options['type']](step_options, exp_options)
-  File "/h/wanxinli/kameris/kameris/job_steps/selection.py", line 103, in run_select_step
-    archive = zipfile.ZipFile(archive_filename)
-  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
-    self._RealGetContents()
-  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
-    raise BadZipFile("File is not a zip file")
-zipfile.BadZipFile: File is not a zip file
-
+INFO     100%|##########| 21.7M/21.7M [00:00<00:00, 37.1Mb/s]
+INFO     finished downloading 'https://drive.google.com/uc?export=download&id=1D_kdVcOjGqBXPXeTrOK0RcVVAY1FoCkL' in 17.45 seconds
+INFO     1%|1         | 1/87 [00:17<25:02, 17.47s/it]
+INFO     38%|###7      | 33/87 [00:18<11:01, 12.24s/it]
+INFO     70%|#######   | 61/87 [00:19<03:43,  8.58s/it]
+INFO     100%|##########| 87/87 [00:20<00:00,  4.24it/s]
+INFO     finished processing metadata entries in 20.51 seconds
+INFO     started writing metadata file
+INFO     finished writing metadata file in 0.01 seconds
+INFO     *** finished step 'select' (1/3) in 20.59 seconds
+INFO     *** started step 'kmers' (2/3)
+INFO     running command ""/h/wanxinli/kameris/kameris/scripts/generation_cgr_linux_avx2" cgr "output/archaea-bacteria-small/subtype-k=5/fasta" "output/archaea-bacteria-small/subtype-k=5/cgrs.mm-repr" 5 16"
+INFO     87 files, using 40 threads
+INFO     1% [>                                  ] 1/87 ETA:1s
+INFO     *** finished step 'kmers' (2/3) in 0.18 seconds
+INFO     *** started step 'classify' (3/3)
+INFO     started classifier '10-nearest-neighbors' (1/15)
+INFO     finished classifier '10-nearest-neighbors' (1/15) in 0.59 seconds
+INFO     started classifier 'nearest-centroid-mean' (2/15)
+INFO     finished classifier 'nearest-centroid-mean' (2/15) in 0.57 seconds
+INFO     started classifier 'nearest-centroid-median' (3/15)
+INFO     finished classifier 'nearest-centroid-median' (3/15) in 0.57 seconds
+INFO     started classifier 'logistic-regression' (4/15)
+INFO     finished classifier 'logistic-regression' (4/15) in 0.40 seconds
+INFO     started classifier 'sgd' (5/15)
+INFO     finished classifier 'sgd' (5/15) in 0.84 seconds
+INFO     started classifier 'linear-svm' (6/15)
+INFO     finished classifier 'linear-svm' (6/15) in 0.55 seconds
+INFO     started classifier 'quadratic-svm' (7/15)
+INFO     finished classifier 'quadratic-svm' (7/15) in 0.67 seconds
+INFO     started classifier 'cubic-svm' (8/15)
+INFO     finished classifier 'cubic-svm' (8/15) in 0.94 seconds
+INFO     started classifier 'decision-tree' (9/15)
+INFO     finished classifier 'decision-tree' (9/15) in 0.75 seconds
+INFO     started classifier 'random-forest' (10/15)
+INFO     finished classifier 'random-forest' (10/15) in 3.05 seconds
+INFO     started classifier 'adaboost' (11/15)
+INFO     finished classifier 'adaboost' (11/15) in 5.72 seconds
+INFO     started classifier 'gaussian-naive-bayes' (12/15)
+INFO     finished classifier 'gaussian-naive-bayes' (12/15) in 5.10 seconds
+INFO     started classifier 'lda' (13/15)
+INFO     finished classifier 'lda' (13/15) in 5.19 seconds
+INFO     started classifier 'qda' (14/15)
+INFO     finished classifier 'qda' (14/15) in 4.63 seconds
+INFO     started classifier 'multilayer-perceptron' (15/15)
+INFO     finished classifier 'multilayer-perceptron' (15/15) in 5.54 seconds
+INFO     *** finished step 'classify' (3/3) in 35.19 seconds

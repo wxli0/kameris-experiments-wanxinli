@@ -1,5 +1,5 @@
 name: archaea-bacteria-small
-random_seed: 1914761867
+random_seed: 2563587527
 experiments:
   subtype-k=5:
     k: 5
