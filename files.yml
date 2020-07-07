@@ -59,3 +59,5 @@ models:
     python3: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-mlp-py3.mm-model
   archaea-bacteria:
     python3: https://github.com/wxli0/kameris-experiments-wanxinli/blob/master/output/archaea-bacteria/subtype-k=5/classification-kmers_sgd.mm-model?raw=true
+  archaea-bacteria-small:
+    python3: https://github.com/wxli0/kameris-experiments-wanxinli/blob/master/output/archaea-bacteria-small/subtype-k=5/classification-kmers_multilayer-perceptron.mm-model?raw=true
