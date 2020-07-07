@@ -1,42 +1,42 @@
-INFO     using random seed value 2165845771
+INFO     using random seed value 3941638111
 INFO     *** started step 'select' (1/3)
 INFO     started copying files from experiment 'subtype-k=5'
-INFO     finished copying files from experiment 'subtype-k=5' in 0.00 seconds
-INFO     *** finished step 'select' (1/3) in 0.00 seconds
+INFO     finished copying files from experiment 'subtype-k=5' in 0.01 seconds
+INFO     *** finished step 'select' (1/3) in 0.02 seconds
 INFO     *** started step 'kmers' (2/3)
 INFO     running command ""/h/wanxinli/kameris/kameris/scripts/generation_cgr_linux_avx2" cgr "output/archaea-bacteria-small/subtype-k=6/fasta" "output/archaea-bacteria-small/subtype-k=6/cgrs.mm-repr" 6 16"
 INFO     87 files, using 40 threads
 INFO     1% [>                                  ] 1/87 ETA:1s
-INFO     *** finished step 'kmers' (2/3) in 0.22 seconds
+INFO     *** finished step 'kmers' (2/3) in 0.19 seconds
 INFO     *** started step 'classify' (3/3)
 INFO     started classifier '10-nearest-neighbors' (1/15)
-INFO     finished classifier '10-nearest-neighbors' (1/15) in 1.32 seconds
+INFO     finished classifier '10-nearest-neighbors' (1/15) in 6.60 seconds
 INFO     started classifier 'nearest-centroid-mean' (2/15)
-INFO     finished classifier 'nearest-centroid-mean' (2/15) in 1.28 seconds
+INFO     finished classifier 'nearest-centroid-mean' (2/15) in 6.19 seconds
 INFO     started classifier 'nearest-centroid-median' (3/15)
-INFO     finished classifier 'nearest-centroid-median' (3/15) in 1.27 seconds
+INFO     finished classifier 'nearest-centroid-median' (3/15) in 6.71 seconds
 INFO     started classifier 'logistic-regression' (4/15)
-INFO     finished classifier 'logistic-regression' (4/15) in 1.31 seconds
+INFO     finished classifier 'logistic-regression' (4/15) in 6.86 seconds
 INFO     started classifier 'sgd' (5/15)
-INFO     finished classifier 'sgd' (5/15) in 1.44 seconds
+INFO     finished classifier 'sgd' (5/15) in 6.48 seconds
 INFO     started classifier 'linear-svm' (6/15)
-INFO     finished classifier 'linear-svm' (6/15) in 1.56 seconds
+INFO     finished classifier 'linear-svm' (6/15) in 5.70 seconds
 INFO     started classifier 'quadratic-svm' (7/15)
-INFO     finished classifier 'quadratic-svm' (7/15) in 1.49 seconds
+INFO     finished classifier 'quadratic-svm' (7/15) in 6.76 seconds
 INFO     started classifier 'cubic-svm' (8/15)
-INFO     finished classifier 'cubic-svm' (8/15) in 1.31 seconds
+INFO     finished classifier 'cubic-svm' (8/15) in 6.71 seconds
 INFO     started classifier 'decision-tree' (9/15)
-INFO     finished classifier 'decision-tree' (9/15) in 1.37 seconds
+INFO     finished classifier 'decision-tree' (9/15) in 6.14 seconds
 INFO     started classifier 'random-forest' (10/15)
-INFO     finished classifier 'random-forest' (10/15) in 1.35 seconds
+INFO     finished classifier 'random-forest' (10/15) in 6.99 seconds
 INFO     started classifier 'adaboost' (11/15)
-INFO     finished classifier 'adaboost' (11/15) in 1.97 seconds
+INFO     finished classifier 'adaboost' (11/15) in 8.07 seconds
 INFO     started classifier 'gaussian-naive-bayes' (12/15)
-INFO     finished classifier 'gaussian-naive-bayes' (12/15) in 1.41 seconds
+INFO     finished classifier 'gaussian-naive-bayes' (12/15) in 6.41 seconds
 INFO     started classifier 'lda' (13/15)
-INFO     finished classifier 'lda' (13/15) in 1.31 seconds
+INFO     finished classifier 'lda' (13/15) in 13.33 seconds
 INFO     started classifier 'qda' (14/15)
-INFO     finished classifier 'qda' (14/15) in 1.54 seconds
+INFO     finished classifier 'qda' (14/15) in 26.86 seconds
 INFO     started classifier 'multilayer-perceptron' (15/15)
-INFO     finished classifier 'multilayer-perceptron' (15/15) in 1.92 seconds
-INFO     *** finished step 'classify' (3/3) in 21.87 seconds
+INFO     finished classifier 'multilayer-perceptron' (15/15) in 28.03 seconds
+INFO     *** finished step 'classify' (3/3) in 147.88 seconds

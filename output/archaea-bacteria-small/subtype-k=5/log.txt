@@ -1,70 +1,50 @@
-INFO     using random seed value 2563587527
+INFO     using random seed value 527468294
 INFO     *** started step 'select' (1/3)
 INFO     started running pick_group
-INFO     retrieving 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/files.yml'
-INFO     started downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-small.json'
-INFO     0%|          | 0.00/706 [00:00<?, ?b/s]
-INFO     4.26kb [00:00, 1.61Mb/s]
-INFO     finished downloading 'https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-small.json' in 0.03 seconds
-INFO     finished running pick_group in 0.06 seconds
+INFO     finished running pick_group in 0.00 seconds
 INFO     started processing metadata entries
 INFO     0%|          | 0/87 [00:00<?, ?it/s]
-INFO     started downloading 'https://drive.google.com/uc?export=download&id=1D_kdVcOjGqBXPXeTrOK0RcVVAY1FoCkL'
-INFO     preparing download (this may take a while)
-INFO     0%|          | 0.00/21.7M [00:00<?, ?b/s]
-INFO     [A
-INFO     5%|4         | 1.05M/21.7M [00:00<00:03, 6.63Mb/s]
-INFO     [A
-INFO     51%|#####1    | 11.1M/21.7M [00:00<00:01, 9.03Mb/s]
-INFO     [A
-INFO     76%|#######6  | 16.6M/21.7M [00:00<00:00, 12.0Mb/s]
-INFO     [A
-INFO     92%|#########1| 19.9M/21.7M [00:00<00:00, 14.4Mb/s]
-INFO     [A
-INFO     100%|##########| 21.7M/21.7M [00:00<00:00, 37.1Mb/s]
-INFO     finished downloading 'https://drive.google.com/uc?export=download&id=1D_kdVcOjGqBXPXeTrOK0RcVVAY1FoCkL' in 17.45 seconds
-INFO     1%|1         | 1/87 [00:17<25:02, 17.47s/it]
-INFO     38%|###7      | 33/87 [00:18<11:01, 12.24s/it]
-INFO     70%|#######   | 61/87 [00:19<03:43,  8.58s/it]
-INFO     100%|##########| 87/87 [00:20<00:00,  4.24it/s]
-INFO     finished processing metadata entries in 20.51 seconds
+INFO     45%|####4     | 39/87 [00:01<00:01, 37.46it/s]
+INFO     79%|#######9  | 69/87 [00:02<00:00, 34.02it/s]
+INFO     100%|##########| 87/87 [00:02<00:00, 31.28it/s]
+INFO     finished processing metadata entries in 2.78 seconds
 INFO     started writing metadata file
 INFO     finished writing metadata file in 0.01 seconds
-INFO     *** finished step 'select' (1/3) in 20.59 seconds
+INFO     *** finished step 'select' (1/3) in 2.80 seconds
 INFO     *** started step 'kmers' (2/3)
 INFO     running command ""/h/wanxinli/kameris/kameris/scripts/generation_cgr_linux_avx2" cgr "output/archaea-bacteria-small/subtype-k=5/fasta" "output/archaea-bacteria-small/subtype-k=5/cgrs.mm-repr" 5 16"
 INFO     87 files, using 40 threads
-INFO     1% [>                                  ] 1/87 ETA:1s
-INFO     *** finished step 'kmers' (2/3) in 0.18 seconds
+INFO     1% [>                                  ] 1/87 ETA:0s
+INFO     *** finished step 'kmers' (2/3) in 0.17 seconds
 INFO     *** started step 'classify' (3/3)
 INFO     started classifier '10-nearest-neighbors' (1/15)
-INFO     finished classifier '10-nearest-neighbors' (1/15) in 0.59 seconds
+INFO     finished classifier '10-nearest-neighbors' (1/15) in 4.64 seconds
 INFO     started classifier 'nearest-centroid-mean' (2/15)
-INFO     finished classifier 'nearest-centroid-mean' (2/15) in 0.57 seconds
+INFO     finished classifier 'nearest-centroid-mean' (2/15) in 3.29 seconds
 INFO     started classifier 'nearest-centroid-median' (3/15)
-INFO     finished classifier 'nearest-centroid-median' (3/15) in 0.57 seconds
+INFO     finished classifier 'nearest-centroid-median' (3/15) in 3.26 seconds
 INFO     started classifier 'logistic-regression' (4/15)
-INFO     finished classifier 'logistic-regression' (4/15) in 0.40 seconds
+INFO     finished classifier 'logistic-regression' (4/15) in 3.59 seconds
 INFO     started classifier 'sgd' (5/15)
-INFO     finished classifier 'sgd' (5/15) in 0.84 seconds
+INFO     finished classifier 'sgd' (5/15) in 3.19 seconds
 INFO     started classifier 'linear-svm' (6/15)
-INFO     finished classifier 'linear-svm' (6/15) in 0.55 seconds
+INFO     finished classifier 'linear-svm' (6/15) in 3.17 seconds
 INFO     started classifier 'quadratic-svm' (7/15)
-INFO     finished classifier 'quadratic-svm' (7/15) in 0.67 seconds
+INFO     finished classifier 'quadratic-svm' (7/15) in 4.06 seconds
 INFO     started classifier 'cubic-svm' (8/15)
-INFO     finished classifier 'cubic-svm' (8/15) in 0.94 seconds
+INFO     finished classifier 'cubic-svm' (8/15) in 3.48 seconds
 INFO     started classifier 'decision-tree' (9/15)
-INFO     finished classifier 'decision-tree' (9/15) in 0.75 seconds
+INFO     finished classifier 'decision-tree' (9/15) in 3.02 seconds
 INFO     started classifier 'random-forest' (10/15)
-INFO     finished classifier 'random-forest' (10/15) in 3.05 seconds
+INFO     finished classifier 'random-forest' (10/15) in 3.87 seconds
 INFO     started classifier 'adaboost' (11/15)
-INFO     finished classifier 'adaboost' (11/15) in 5.72 seconds
+INFO     finished classifier 'adaboost' (11/15) in 7.35 seconds
 INFO     started classifier 'gaussian-naive-bayes' (12/15)
-INFO     finished classifier 'gaussian-naive-bayes' (12/15) in 5.10 seconds
+INFO     finished classifier 'gaussian-naive-bayes' (12/15) in 4.01 seconds
 INFO     started classifier 'lda' (13/15)
-INFO     finished classifier 'lda' (13/15) in 5.19 seconds
+INFO     finished classifier 'lda' (13/15) in 2.94 seconds
 INFO     started classifier 'qda' (14/15)
-INFO     finished classifier 'qda' (14/15) in 4.63 seconds
+INFO     finished classifier 'qda' (14/15) in 2.42 seconds
 INFO     started classifier 'multilayer-perceptron' (15/15)
-INFO     finished classifier 'multilayer-perceptron' (15/15) in 5.54 seconds
-INFO     *** finished step 'classify' (3/3) in 35.19 seconds
+INFO     finished classifier 'multilayer-perceptron' (15/15) in 8.29 seconds
+INFO     *** finished step 'classify' (3/3) in 60.62 seconds

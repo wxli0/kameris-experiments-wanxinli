@@ -1,5 +1,5 @@
 name: archaea-bacteria-small
-random_seed: 2165845771
+random_seed: 3941638111
 experiments:
   subtype-k=6:
     k: 6
@@ -26,7 +26,7 @@ steps:
 - type: classify
   features_file: cgrs.mm-repr
   output_file: classification-kmers.json
-  validation_count: 2
+  validation_count: 10
   classifiers:
   - 10-nearest-neighbors
   - nearest-centroid-mean
