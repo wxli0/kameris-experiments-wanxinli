@@ -28,6 +28,7 @@ metadata:
   viruses-refseq: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/metadata/viruses-refseq.json
   archaea-bacteria: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria.json
   archaea-bacteria-small: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-small.json
+  archaea-bacteria-large: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-large.json
 
 archives:
   1kplants: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvU0RJSDMtbjZVZDQ
@@ -49,7 +50,8 @@ archives:
   viruses: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvdE9NcDEzaTNWYk0
   archaea-bacteria: https://drive.google.com/uc?export=download&id=1gCNNgqxbTVnttKyESwQjR_ghKGijVgO-
   archaea-bacteria-small: https://drive.google.com/uc?export=download&id=1D_kdVcOjGqBXPXeTrOK0RcVVAY1FoCkL
-
+  archaea-bacteria-large: https://drive.google.com/uc?export=download&id=1i76NwjuYN-TGmgokjaptDaHn8gAJQglp
+  
 models:
   hiv1-linearsvm:
     python2: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-linearsvm-py2.mm-model
