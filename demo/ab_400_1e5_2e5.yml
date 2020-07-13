@@ -1,13 +1,13 @@
-name: ab400_1e5_2e5
+name: ab_400_1e5_2e5
 
 experiments:
   subtype:
     expand_options:
       k: 5..9
     dataset:
-      archive: ab400_1e5_2e5
-      archive_folder: ab400_1e5_2e5
-      metadata: ab400_1e5_2e5
+      archive: ab_400_1e5_2e5
+      archive_folder: ab_400_1e5_2e5
+      metadata: ab_400_1e5_2e5
     groups:
       'Archaea': {}
       'Bacteria': {}
