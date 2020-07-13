@@ -52,7 +52,7 @@ archives:
   archaea-bacteria: https://drive.google.com/uc?export=download&id=1gCNNgqxbTVnttKyESwQjR_ghKGijVgO-
   archaea-bacteria-small: https://drive.google.com/uc?export=download&id=1D_kdVcOjGqBXPXeTrOK0RcVVAY1FoCkL
   archaea-bacteria-large: https://drive.google.com/uc?export=download&id=1i76NwjuYN-TGmgokjaptDaHn8gAJQglp
-  ab_400_1e5_2e5: https://drive.google.com/file/d/1VeWmjI2F6IZci8UOTv9rUs1je1lMEDeC/view?usp=sharing
+  ab_400_1e5_2e5: https://drive.google.com/uc?export=download&id=1VeWmjI2F6IZci8UOTv9rUs1je1lMEDeC
 
 models:
   hiv1-linearsvm:
