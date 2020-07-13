@@ -1,13 +1,13 @@
-name: archaea-bacteria-small
+name: ab400_1e5_2e5
 
 experiments:
   subtype:
     expand_options:
-      k: 8..9
+      k: 5..9
     dataset:
-      archive: archaea-bacteria-small
-      archive_folder: archaea-bacteria-small
-      metadata: archaea-bacteria-small
+      archive: ab400_1e5_2e5
+      archive_folder: ab400_1e5_2e5
+      metadata: ab400_1e5_2e5
     groups:
       'Archaea': {}
       'Bacteria': {}
