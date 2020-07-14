@@ -31,6 +31,7 @@ metadata:
   archaea-bacteria-large: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/archaea-bacteria-large.json
   ab_400_1e5_2e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/ab_400_1e5_2e5.json
   ab_800_1e5_2e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/ab_800_1e5_2e5.json
+  ab_400_4e5_5e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/ab_400_4e5_5e5.json
 
 archives:
   1kplants: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvU0RJSDMtbjZVZDQ
@@ -55,6 +56,7 @@ archives:
   archaea-bacteria-large: https://drive.google.com/uc?export=download&id=1i76NwjuYN-TGmgokjaptDaHn8gAJQglp
   ab_400_1e5_2e5: https://drive.google.com/uc?export=download&id=1VeWmjI2F6IZci8UOTv9rUs1je1lMEDeC
   ab_800_1e5_2e5: https://drive.google.com/uc?export=download&id=1-duNVQxyUROxCO4UKWhzvl0qk-1LCRbN
+  ab_400_4e5_5e5: https://drive.google.com/uc?export=download&id=13smFEJw52c7aMUDNxEDsZNvPpVgqV4qD
 
 models:
   hiv1-linearsvm:
