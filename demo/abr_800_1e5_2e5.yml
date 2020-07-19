@@ -1,16 +1,16 @@
-name: ab_400_4e5_5e5
+name: abr_800_1e5_2e5
 
 experiments:
   subtype:
     expand_options:
-      k: 7..7
+      k: 8..8
     dataset:
-      archive: ab_400_4e5_5e5
-      archive_folder: ab_400_4e5_5e5
-      metadata: ab_400_4e5_5e5
+      archive: abr_800_1e5_2e5
+      archive_folder: abr_800_1e5_2e5
+      metadata: abr_800_1e5_2e5
     groups:
-      'Archaea': {}
-      'Bacteria': {}
+      'archaea': {}
+      'bacteria': {}
 
 steps:
   - type: select
