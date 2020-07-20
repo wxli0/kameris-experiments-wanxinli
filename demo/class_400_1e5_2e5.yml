@@ -16,7 +16,7 @@ experiments:
       'p__Firmicutes_A': {}		
       'p__Spirochaetota': {}
       'p__Campylobacterota': {}	
-      'p__Patescibacteria' {}
+      'p__Patescibacteria': {}
 
 steps:
   - type: select
