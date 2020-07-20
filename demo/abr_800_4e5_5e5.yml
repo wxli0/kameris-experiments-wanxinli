@@ -1,16 +1,16 @@
-name: archaea-bacteria-small
+name: abr_800_4e5_5e5
 
 experiments:
   subtype:
     expand_options:
-      k: 8..9
+      k: 8..8
     dataset:
-      archive: archaea-bacteria-small
-      archive_folder: archaea-bacteria-small
-      metadata: archaea-bacteria-small
+      archive: abr_800_4e5_5e5
+      archive_folder: abr_800_4e5_5e5
+      metadata: abr_800_4e5_5e5
     groups:
-      'Archaea': {}
-      'Bacteria': {}
+      'archaea': {}
+      'bacteria': {}
 
 steps:
   - type: select
@@ -46,20 +46,20 @@ steps:
     output_file: classification-kmers.json
     validation_count: 10
     classifiers:
-      - 10-nearest-neighbors
-      - nearest-centroid-mean
-      - nearest-centroid-median
+      # - 10-nearest-neighbors
+      # - nearest-centroid-mean
+      # - nearest-centroid-median
       - logistic-regression
       - sgd
       - linear-svm
       - quadratic-svm
-      - cubic-svm
-      - decision-tree
-      - random-forest
-      - adaboost
-      - gaussian-naive-bayes
-      - lda
-      - qda
+      # - cubic-svm
+      # - decision-tree
+      # - random-forest
+      # - adaboost
+      # - gaussian-naive-bayes
+      # - lda
+      # - qda
       - multilayer-perceptron
 
   #- type: classify

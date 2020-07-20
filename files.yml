@@ -34,6 +34,7 @@ metadata:
   ab_400_4e5_5e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/ab_400_4e5_5e5.json
   ab_800_4e5_5e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/ab_800_4e5_5e5.json
   abr_800_1e5_2e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/abr_800_1e5_2e5.json
+  abr_800_4e5_5e5: https://raw.githubusercontent.com/wxli0/kameris-experiments-wanxinli/master/metadata/abr_800_4e5_5e5.json
 
 archives:
   1kplants: https://drive.google.com/uc?export=download&id=0B7OX388vZjTvU0RJSDMtbjZVZDQ
@@ -61,6 +62,7 @@ archives:
   ab_400_4e5_5e5: https://drive.google.com/uc?export=download&id=13smFEJw52c7aMUDNxEDsZNvPpVgqV4qD
   ab_800_4e5_5e5: https://drive.google.com/uc?export=download&id=1RF0S7p6zw5iEQKu2zvpxPSqX6Fe9PrXv
   abr_800_1e5_2e5: https://drive.google.com/uc?export=download&id=1PsZg2KQ1wpUsnRQ72u7rTuaGL5GMiX2p
+  abr_800_4e5_5e5: https://drive.google.com/uc?export=download&id=1Q7DqwJ-74RhEbJEdr65eRPW6g4BrJ0ZK
 
 models:
   hiv1-linearsvm:
