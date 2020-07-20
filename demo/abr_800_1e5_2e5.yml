@@ -46,20 +46,20 @@ steps:
     output_file: classification-kmers.json
     validation_count: 10
     classifiers:
-      - 10-nearest-neighbors
-      - nearest-centroid-mean
-      - nearest-centroid-median
+      # - 10-nearest-neighbors
+      # - nearest-centroid-mean
+      # - nearest-centroid-median
       - logistic-regression
       - sgd
       - linear-svm
       - quadratic-svm
-      - cubic-svm
-      - decision-tree
-      - random-forest
-      - adaboost
-      - gaussian-naive-bayes
-      - lda
-      - qda
+      # - cubic-svm
+      # - decision-tree
+      # - random-forest
+      # - adaboost
+      # - gaussian-naive-bayes
+      # - lda
+      # - qda
       - multilayer-perceptron
 
   #- type: classify
