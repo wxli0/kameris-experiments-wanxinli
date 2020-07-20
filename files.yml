@@ -65,6 +65,7 @@ archives:
   abr_800_1e5_2e5: https://drive.google.com/uc?export=download&id=1PsZg2KQ1wpUsnRQ72u7rTuaGL5GMiX2p
   abr_800_4e5_5e5: https://drive.google.com/uc?export=download&id=1Q7DqwJ-74RhEbJEdr65eRPW6g4BrJ0ZK
   class_400_1e5_2e5: https://drive.google.com/uc?export=download&id=11jkV8NCNrH8iFF5wQGBS5z41y3vl6Lm1
+
 models:
   hiv1-linearsvm:
     python2: https://raw.githubusercontent.com/stephensolis/kameris-experiments/master/models/hiv1-linearsvm-py2.mm-model
