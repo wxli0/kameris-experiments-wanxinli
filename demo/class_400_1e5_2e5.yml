@@ -9,14 +9,13 @@ experiments:
       archive_folder: class_400_1e5_2e5
       metadata: class_400_1e5_2e5
     groups:
-      'c__Cyanobacterii': {}
-      'p__Firmicutes': {}		
-      'p__Proteobacteria': {}
-      'p__Bacteriodota': {}		
-      'p__Firmicutes_A': {}		
-      'p__Spirochaetota': {}
-      'p__Campylobacterota': {}	
-      'p__Patescibacteria': {}
+      'c__Actinomycetia': {}        
+      'c__Bacteroidia': {}     
+      'c__Gammaproteobacteria': {}  
+      'c__Spirochaetia': {}
+      'c__Alphaproteobacteria': {}  
+      'c__Campylobacteria': {}  
+      'c__Leptospirae': {}
 
 steps:
   - type: select
