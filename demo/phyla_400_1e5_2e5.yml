@@ -1,13 +1,13 @@
-name: class_400_1e5_2e5
+name: phyla_400_1e5_2e5
 
 experiments:
   subtype:
     expand_options:
-      k: 8..8
+      k: 9..9
     dataset:
-      archive: class_400_1e5_2e5
-      archive_folder: class_400_1e5_2e5
-      metadata: class_400_1e5_2e5
+      archive: phyla_400_1e5_2e5
+      archive_folder: phyla_400_1e5_2e5
+      metadata: phyla_400_1e5_2e5
     groups:
       'c__Cyanobacterii': {}
       'p__Firmicutes': {}		
